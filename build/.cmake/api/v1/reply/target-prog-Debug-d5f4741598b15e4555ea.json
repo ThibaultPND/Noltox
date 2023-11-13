@@ -80,11 +80,11 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "E:/Programmes/langage  C++/noltox 2.0/include/SDL2"
+					"path" : "C:/Users/SN2/Documents/programme/C++/noltox/include/SDL2"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "E:/Programmes/langage  C++/noltox 2.0/include"
+					"path" : "C:/Users/SN2/Documents/programme/C++/noltox/include"
 				}
 			],
 			"language" : "CXX",
@@ -114,7 +114,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LE:\\PROGRA~1\\LANGAG~2\\NOLTOX~1.0\\lib",
+				"fragment" : "-LC:\\Users\\SN2\\Documents\\programme\\C++\\noltox\\lib",
 				"role" : "libraryPath"
 			},
 			{

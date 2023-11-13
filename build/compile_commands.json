@@ -1,38 +1,38 @@
 [
 {
-  "directory": "E:/Programmes/langage  C++/noltox 2.0/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\main.cpp.obj -c \"E:\\Programmes\\langage  C++\\noltox 2.0\\src\\main.cpp\"",
-  "file": "E:/Programmes/langage  C++/noltox 2.0/src/main.cpp",
+  "directory": "C:/Users/SN2/Documents/programme/C++/noltox/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\main.cpp.obj -c C:\\Users\\SN2\\Documents\\programme\\C++\\noltox\\src\\main.cpp",
+  "file": "C:/Users/SN2/Documents/programme/C++/noltox/src/main.cpp",
   "output": "CMakeFiles/prog.dir/src/main.cpp.obj"
 },
 {
-  "directory": "E:/Programmes/langage  C++/noltox 2.0/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\project.cpp.obj -c \"E:\\Programmes\\langage  C++\\noltox 2.0\\src\\project.cpp\"",
-  "file": "E:/Programmes/langage  C++/noltox 2.0/src/project.cpp",
+  "directory": "C:/Users/SN2/Documents/programme/C++/noltox/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\project.cpp.obj -c C:\\Users\\SN2\\Documents\\programme\\C++\\noltox\\src\\project.cpp",
+  "file": "C:/Users/SN2/Documents/programme/C++/noltox/src/project.cpp",
   "output": "CMakeFiles/prog.dir/src/project.cpp.obj"
 },
 {
-  "directory": "E:/Programmes/langage  C++/noltox 2.0/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\TxUtils.cpp.obj -c \"E:\\Programmes\\langage  C++\\noltox 2.0\\src\\TxUtils.cpp\"",
-  "file": "E:/Programmes/langage  C++/noltox 2.0/src/TxUtils.cpp",
+  "directory": "C:/Users/SN2/Documents/programme/C++/noltox/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\TxUtils.cpp.obj -c C:\\Users\\SN2\\Documents\\programme\\C++\\noltox\\src\\TxUtils.cpp",
+  "file": "C:/Users/SN2/Documents/programme/C++/noltox/src/TxUtils.cpp",
   "output": "CMakeFiles/prog.dir/src/TxUtils.cpp.obj"
 },
 {
-  "directory": "E:/Programmes/langage  C++/noltox 2.0/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\globalRenderer.cpp.obj -c \"E:\\Programmes\\langage  C++\\noltox 2.0\\src\\globalRenderer.cpp\"",
-  "file": "E:/Programmes/langage  C++/noltox 2.0/src/globalRenderer.cpp",
+  "directory": "C:/Users/SN2/Documents/programme/C++/noltox/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\globalRenderer.cpp.obj -c C:\\Users\\SN2\\Documents\\programme\\C++\\noltox\\src\\globalRenderer.cpp",
+  "file": "C:/Users/SN2/Documents/programme/C++/noltox/src/globalRenderer.cpp",
   "output": "CMakeFiles/prog.dir/src/globalRenderer.cpp.obj"
 },
 {
-  "directory": "E:/Programmes/langage  C++/noltox 2.0/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\background.cpp.obj -c \"E:\\Programmes\\langage  C++\\noltox 2.0\\src\\background.cpp\"",
-  "file": "E:/Programmes/langage  C++/noltox 2.0/src/background.cpp",
+  "directory": "C:/Users/SN2/Documents/programme/C++/noltox/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\background.cpp.obj -c C:\\Users\\SN2\\Documents\\programme\\C++\\noltox\\src\\background.cpp",
+  "file": "C:/Users/SN2/Documents/programme/C++/noltox/src/background.cpp",
   "output": "CMakeFiles/prog.dir/src/background.cpp.obj"
 },
 {
-  "directory": "E:/Programmes/langage  C++/noltox 2.0/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\SNoltox.cpp.obj -c \"E:\\Programmes\\langage  C++\\noltox 2.0\\src\\SNoltox.cpp\"",
-  "file": "E:/Programmes/langage  C++/noltox 2.0/src/SNoltox.cpp",
+  "directory": "C:/Users/SN2/Documents/programme/C++/noltox/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DSDL_MAIN_HANDLED @CMakeFiles/prog.dir/includes_CXX.rsp -g -o CMakeFiles\\prog.dir\\src\\SNoltox.cpp.obj -c C:\\Users\\SN2\\Documents\\programme\\C++\\noltox\\src\\SNoltox.cpp",
+  "file": "C:/Users/SN2/Documents/programme/C++/noltox/src/SNoltox.cpp",
   "output": "CMakeFiles/prog.dir/src/SNoltox.cpp.obj"
 }
 ]

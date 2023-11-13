@@ -1,12 +1,13 @@
 #include "SNoltox.h"
 
 Noltox::Noltox()
-:   head(new body_t({320,320, 32, 32}, dir_t::RIGHT, 10, 10))
+:   head(new body_t({320,320, 32, 32}, dir_t::RIGHT, 10, 10)),
+    fruit(LoadTexture("img/food/kiwi.bmp"), 0, 0)
     {
         tail = head;
         this->headTx = LoadTexture("img/Noltox/head.bmp");
         this->bodyTx = LoadTexture("img/Noltox/body.bmp");
-
+        
         for (int i = 0; i < 20; ++i) {
             for (int j = 0; j < 20; ++j) {
                 gameTab[i][j].tileType = tileType_t::none;
@@ -15,6 +16,16 @@ Noltox::Noltox()
         }
         gameTab[10][10].tileType = tileType_t::head;
         gameTab[10][10].body = head;
+
+        do{
+            fruit.x = rand()%20;
+            fruit.y = rand()%20;
+        } while (fruit.x == 320 && fruit.y == 320);
+        
+        SDL_QueryTexture(fruit.texture, NULL, NULL, &fruit.frame.w, &fruit.frame.h);
+        fruit.frame.x = fruit.x*32;
+        fruit.frame.y = fruit.y*32;
+        renderFruit();
 }
 Noltox::~Noltox(){
     SDL_DestroyTexture(this->bodyTx);
@@ -26,6 +37,8 @@ Noltox::~Noltox(){
         delete current;
         current = next;
     }
+
+    SDL_DestroyTexture(fruit.texture);
 }
 
 void Noltox::render() {
@@ -46,6 +59,10 @@ void Noltox::render() {
         NULL, SDL_FLIP_NONE
     );
     
+}
+
+void Noltox::renderFruit() {
+    SDL_RenderCopy(gRenderer, fruit.texture, NULL, &fruit.frame);
 }
 
 void Noltox::append() {
@@ -196,6 +213,13 @@ bool Noltox::isABodyForward(SDL_Rect *frame, dir_t direction){
         current = current->next;
     }
     return false;
+}
+
+dir_t Noltox::getDirection(){
+    return this->head->direction;
+}
+void Noltox::setDirection(dir_t direction) {
+    this->head->direction = direction;
 }
 
 // case dir_t::UP:
