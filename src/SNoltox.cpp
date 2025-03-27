@@ -62,6 +62,8 @@ void Noltox::render() {
 }
 
 void Noltox::renderFruit() {
+    fruit.frame.x = fruit.x*32;
+    fruit.frame.y = fruit.y*32;
     SDL_RenderCopy(gRenderer, fruit.texture, NULL, &fruit.frame);
 }
 
@@ -99,24 +101,28 @@ int Noltox::crawl() {
                 return 1;
             }
             head->frame.y -= 32;
+            head->y--;
             break;
         case dir_t::DOWN:
             if (head->frame.y >= 607 || isABodyForward(&head->frame, dir_t::DOWN)) {
                 return 1;
             }
             head->frame.y += 32;
+            head->y++;
             break;
         case dir_t::LEFT:
             if (head->frame.x <= 1 || isABodyForward(&head->frame, dir_t::LEFT)) {
                 return 1;
             }
             head->frame.x -= 32;
+            head->x--;
             break;
         case dir_t::RIGHT:
             if (head->frame.x >= 607 || isABodyForward(&head->frame, dir_t::RIGHT)) {
                 return 1;
             }
             head->frame.x += 32;
+            head->x++;
             break;
     }
     body_t *current = head->next;
@@ -222,6 +228,22 @@ void Noltox::setDirection(dir_t direction) {
     this->head->direction = direction;
 }
 
+bool Noltox::onFruit(){
+    printf("Position Head : %d : %d\n Position fruit : %d : %d\n\n",this->head->x, this->head->y, this->fruit.x,  this->fruit.y);
+    if (this->head->x == this->fruit.x && this->head->y == this->fruit.y){
+        this->eatFruit();
+        return true;
+    }
+    return false;
+}
+
+void Noltox::eatFruit(){
+    // Changer Position
+    do{
+        fruit.x = rand()%20;
+        fruit.y = rand()%20;
+    } while (fruit.x >= 320 && fruit.y <= 320);
+}
 // case dir_t::UP:
 //     break;
 // case dir_t::DOWN:

@@ -65,7 +65,8 @@
             dir_t getDirection();
             void setDirection(dir_t direction);
             bool isABodyForward(SDL_Rect *frame, dir_t direction);
-            bool isAFruitForward();
+            bool onFruit();
+            void eatFruit();
             ~Noltox();
     };
     

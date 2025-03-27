@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "prog::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-prog-Debug-d5f4741598b15e4555ea.json",
+					"jsonFile" : "target-prog-Debug-de936242b0d7e08dbed3.json",
 					"name" : "prog",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/SN2/Documents/programme/C++/noltox/build",
-		"source" : "C:/Users/SN2/Documents/programme/C++/noltox"
+		"build" : "C:/Users/thibl/Documents/GitHub/Noltox/build",
+		"source" : "C:/Users/thibl/Documents/GitHub/Noltox"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 5
 	}
 }

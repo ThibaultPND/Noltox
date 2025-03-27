@@ -41,7 +41,10 @@ int main(int argc, char* argv[]) {
         Uint32 avancerTimer = SDL_GetTicks();
         bool programLaunched(true);
         while (programLaunched) {
-            if ((SDL_GetTicks() - avancerTimer) > 350) {
+            if ((SDL_GetTicks() - avancerTimer) > 100) {
+                if( serpent.onFruit()){
+                    waitAppend = true;
+                }
                 if (waitAppend) {
                     body_t *newBody = new body_t(
                         serpent.getTail()->frame,
@@ -84,7 +87,7 @@ int main(int argc, char* argv[]) {
                         break;
                     case SDL_KEYDOWN:
                         switch (event.key.keysym.sym){
-                            case SDLK_UP:
+                            case SDLK_z:
                                 if (waitTurn){
                                     if (serpent.getDirection() != dir_t::UP){
                                         nextTurn = static_cast<int>(dir_t::UP);
@@ -101,7 +104,7 @@ int main(int argc, char* argv[]) {
                                 }
                                 waitTurn = true;
                                 break;
-                            case SDLK_DOWN:
+                            case SDLK_s:
                                 if (waitTurn){
                                     if (serpent.getDirection() != dir_t::DOWN){
                                         nextTurn = static_cast<int>(dir_t::DOWN);
@@ -118,7 +121,7 @@ int main(int argc, char* argv[]) {
                                 }
                                 waitTurn = true;
                                 break;
-                            case SDLK_LEFT:
+                            case SDLK_q:
                                 if (waitTurn){
                                     if (serpent.getDirection() != dir_t::LEFT){
                                         nextTurn = static_cast<int>(dir_t::LEFT);
@@ -135,7 +138,7 @@ int main(int argc, char* argv[]) {
                                 }
                                 waitTurn = true;
                                 break;
-                            case SDLK_RIGHT:
+                            case SDLK_d:
                                 if (waitTurn){
                                     if (serpent.getDirection() != dir_t::RIGHT){
                                         nextTurn = static_cast<int>(dir_t::RIGHT);
